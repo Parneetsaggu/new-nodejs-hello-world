@@ -3,7 +3,7 @@ var https = require('https');
 var server = https.createServer(function(request, response) {
 
     response.writeHead(200, {"Content-Type": "text/plain"});
-    response.end("Hello yo World!");
+    response.end("Hello World!");
 
 });
 
